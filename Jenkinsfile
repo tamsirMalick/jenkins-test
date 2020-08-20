@@ -29,7 +29,7 @@ pipeline {
   
   post {
     always {
-      archiveArtifacts artifacts: 'app/**/*.pdf'
+      archiveArtifacts artifacts: 'app/build/outputs/mobsf/*.pdf'
     }
   }
   tools {
