@@ -1,0 +1,4 @@
+rootProject.name='Food'
+include ':app'
+gradle.ext.apiUrl = 'http://localhost:8000/api/v1'
+gradle.ext.apiKey = 'aed92845194ff083fbc58469dc677cb70f71d8d8c50b91599e2f27c138eb0ba5'
