@@ -26,6 +26,12 @@ pipeline {
     }
 
   }
+  
+  post {
+    always {
+      archiveArtifacts artifacts: 'target/build/outputs/mobsf/*.pdf'
+    }
+  }
   tools {
     gradle 'gradle66'
   }
